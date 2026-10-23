@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="670" viewBox="0 0 1080 670" role="img" aria-labelledby="title description">
+  <title id="title">Mouse Wiggler illustrated interface: Ready and Awake</title>
+  <desc id="description">Illustrated previews of the app's two states. Ready shows 15 seconds and an ON button. Awake shows a circular countdown at 9 seconds and an OFF button. The app draws a tiny circle every 15 seconds.</desc>
+  <defs>
+    <linearGradient id="canvas" x2="1" y2="1">
+      <stop stop-color="#16252e"/>
+      <stop offset="1" stop-color="#0e151e"/>
+    </linearGradient>
+    <linearGradient id="icon" x2="1" y2="1">
+      <stop stop-color="#273e49"/>
+      <stop offset="1" stop-color="#111d28"/>
+    </linearGradient>
+    <g id="logo">
+      <rect width="48" height="48" rx="12" fill="url(#icon)"/>
+      <path d="M 35 14 A 16 16 0 1 0 39 25" fill="none" stroke="#57e8c2" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="39" cy="19" r="2" fill="#8af3dc"/>
+      <path d="M 19 14 L 19 34 L 24 29 L 28 37 L 32 35 L 28 27 L 35 26 Z" fill="#f6fafc"/>
+    </g>
+    <g id="window">
+      <rect x="0" y="8" width="328" height="474" rx="20" fill="#000" fill-opacity=".23"/>
+      <rect width="328" height="474" rx="20" fill="#0e131a" stroke="#33414c"/>
+      <circle cx="20" cy="21" r="5" fill="#ff6059"/>
+      <circle cx="37" cy="21" r="5" fill="#ffbd2e"/>
+      <circle cx="54" cy="21" r="5" fill="#28c840"/>
+      <text x="164" y="25" text-anchor="middle" fill="#818e9b" font-size="11">Mouse Wiggler</text>
+      <use href="#logo" x="42" y="57"/>
+      <text x="103" y="77" fill="#e9edf1" font-size="20" font-weight="700">Mouse Wiggler</text>
+      <text x="103" y="96" fill="#8e9ba8" font-size="11">Tiny circles. Stay awake.</text>
+      <circle cx="164" cy="250" r="91" fill="none" stroke="#242c37" stroke-width="5"/>
+      <text x="164" y="297" text-anchor="middle" fill="#8e9ba8" font-size="10" font-weight="600" letter-spacing="1.2">SECONDS</text>
+      <text x="164" y="438" text-anchor="middle" fill="#8e9ba8" font-size="11">Every 15 seconds · 2 px circle</text>
+    </g>
+  </defs>
+  <rect width="1080" height="670" rx="24" fill="url(#canvas)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+    <text x="540" y="51" text-anchor="middle" fill="#e9edf1" font-size="23" font-weight="650">One button. Two states.</text>
+    <text x="540" y="79" text-anchor="middle" fill="#94a6b5" font-size="14">A quiet countdown. A tiny circle. Nothing extra.</text>
+    <g transform="translate(164 114)">
+      <use href="#window"/>
+      <circle cx="133" cy="130" r="4" fill="#87929e"/>
+      <text x="147" y="134" fill="#87929e" font-size="11" font-weight="700" letter-spacing="1">READY</text>
+      <circle cx="164" cy="159" r="4" fill="#57e8c2" fill-opacity=".4"/>
+      <text x="164" y="270" text-anchor="middle" fill="#f3f6fa" font-size="70" font-weight="300">15</text>
+      <rect x="57" y="369" width="214" height="44" rx="14" fill="#57e8c2"/>
+      <text x="164" y="397" text-anchor="middle" fill="#102923" font-size="16" font-weight="700">ON</text>
+    </g>
+    <g transform="translate(588 114)">
+      <use href="#window"/>
+      <circle cx="130" cy="130" r="4" fill="#57e8c2"/>
+      <text x="144" y="134" fill="#57e8c2" font-size="11" font-weight="700" letter-spacing="1">AWAKE</text>
+      <circle cx="164" cy="250" r="91" fill="none" stroke="#57e8c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="229 572" transform="rotate(-90 164 250)"/>
+      <circle cx="217.5" cy="323.6" r="10" fill="#57e8c2" fill-opacity=".12"/>
+      <circle cx="217.5" cy="323.6" r="4" fill="#57e8c2"/>
+      <text x="164" y="270" text-anchor="middle" fill="#f3f6fa" font-size="70" font-weight="300">9</text>
+      <rect x="57" y="369" width="214" height="44" rx="14" fill="#ffffff" fill-opacity=".08" stroke="#57e8c2" stroke-opacity=".35"/>
+      <text x="164" y="397" text-anchor="middle" fill="#f3f6fa" font-size="16" font-weight="700">OFF</text>
+    </g>
+    <text x="328" y="626" text-anchor="middle" fill="#a9b9c6" font-size="13">Starts OFF. Ready when you are.</text>
+    <text x="752" y="626" text-anchor="middle" fill="#a9b9c6" font-size="13">Keep-awake stays on until you stop it.</text>
+  </g>
+</svg>
